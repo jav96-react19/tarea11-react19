@@ -6,8 +6,6 @@ const CourseJoinedContext = createContext<CourseJoinedContextProps>({
     courseJoined: {
         title: "",
         img: "",
-        buttonColor: "",
-        joined: false
     },
     setCourseJoined: () => {},
 });
