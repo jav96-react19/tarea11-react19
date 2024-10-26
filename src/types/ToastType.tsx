@@ -1,5 +1,5 @@
 export type ToastProps = {
     onOpen: boolean,
-    onClose: (e?: MouseEvent | KeyboardEvent | undefined) => void
+    onClose?: (e?: React.MouseEvent | React.KeyboardEvent) => void
     courseTitle: string,
 }
